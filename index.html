@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visual Percent</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="calculator">
+        <h1>Visual Percent</h1>
+        <p>Qual a porcentagem de:</p>
+        <input type="number" id="valor" placeholder="Valor">
+        <p>em relação a:</p>
+        <input type="number" id="total" placeholder="Total">
+        <button onclick="calcularPorcentagem()">Calcular</button>
+        <p id="resultado"></p>
+        <div id="calculos" class="calculos-container"></div>
+        <div id="explicacao" class="explicacao-container"></div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
